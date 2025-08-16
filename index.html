@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion de formularios</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>FORMULARIO DE REGISTRO</h1>
+    <div>
+        <form action="">
+            <label for="nombre"><p>Nombre</p>
+            <input type="text" name="nombre" required></label><br>
+
+            <label for="apellido"><p>Apellido</p>
+            <input type="text" name="apellido" required></label><br>
+
+            <label for="email"><p>Email</p>
+            <input type="email" name="email" required></label><br>
+
+            <label for="telefono"><p>Teléfono</p>
+            <input type="number" name="nombre" required></label><br>
+
+            <label for="direccion"><p>Dirección</p>
+            <input type="text" name="direccion" required></label><br>
+
+            <label for="sexo"><p>Sexo</p>
+                <select name="" id="">
+                    <option value="" disabled selected>Seleccione sexo</option>
+                    <option value="">Hombre</option>
+                    <option value="">Mujer</option>
+                    <option value="">No binario</option>
+                </select>
+            </label><br>
+
+            <label for="pais"><p>País</p>
+                <select name="" id="">
+                    <option value="" disabled selected>Seleccione país</option>
+                    <option value="">Argentina</option>
+                    <option value="">Mexico</option>
+                    <option value="">España</option>
+                </select>
+            </label><br>
+
+            <label for="provincia"><p>Provincia</p>
+                <select name="" id="">
+                    <option value="" disabled selected>Seleccione provincia</option>
+                    <option value="">Buenos Aires</option>
+                    <option value="">Ciudad de Mexico</option>
+                    <option value="">Barcelona</option>
+                </select>
+            </label><br>
+            
+            <input type="submit" class="submit">
+        </form>
+    </div>
+</body>
+</html>
+
+<!--
+ <form action="">
+        <label action="" method="">
+        <label for="apellido">Ingrese Apellido: <input type="text" name="apellido" placeholder="Ingrese apellido"></label><br><br>
+        <label for="nombre">Ingrese Nombre: <input type="text" name="nombre" placeholder="Ingrese nombre"></label><br><br>
+        <label for="edad">Ingrese Edad: <input type="number" name="edad"></label><br><br>
+        <p>Ingrese Genero</p>
+        <label for="genero">Femenino<input type="radio" name="genero"></label>
+        <label for="genero">Masculino<input type="radio" name="genero"></label><br><br>
+        <p>Aactividades de interes</p>
+        <label for="musica">Musica<input type="checkbox" name="musica"></label>
+        <label for="deportes">Deportes<input type="checkbox" name="deportes"></label>
+        <label for="comida">Musica<input type="checkbox" name="comida"></label><br><br>
+        <label for="nacimiento">Ingrese fecha de nacimiento: <input type="date"></label>
+        <label for="file">Seleccione archivo <input type="file"></label><br><br>
+        <input type="reset">
+        <input type="submit" value="Procesar">
+    </form>
+-->
